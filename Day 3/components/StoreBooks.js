@@ -5,7 +5,7 @@ export default function StoreBooks({ books }) {
         <div className={styles.storeMain}>
             <div className={styles.storeBooks}>
                 {books.map((e => {
-                    return <Book key={e.id} book={e} />
+                    return <Book id={"dsdadasdadas"} key={e.id} book={e} />
                 }))}
             </div>
         </div>
