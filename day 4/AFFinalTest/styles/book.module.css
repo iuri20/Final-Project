@@ -1,0 +1,35 @@
+.image img {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.book {
+    border: 1px black solid;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book * {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.storeMain {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.storeBooks {
+    width: 260px;
+    display: grid;
+    row-gap: 40px;
+    column-gap: 60px;
+    grid-template-columns: 100px 100px;
+}
