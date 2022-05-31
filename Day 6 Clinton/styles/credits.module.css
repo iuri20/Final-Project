@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.circle {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    color: white;
+    background-color: #2a9184;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.credits{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px #2a9184 solid;
+    background-color: white;
+    justify-content: center;
+    
+
+}
+.creditsTitle{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.creditsInfo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.buttonAdd{
+    border: none;
+    background-color: #638b48;
+    border-radius: 5%;
+}
+
+.creditPage{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
